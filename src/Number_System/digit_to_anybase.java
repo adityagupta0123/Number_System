@@ -9,6 +9,10 @@ public class digit_to_anybase {
         int n = sc.nextInt();
         System.out.println("enter base : ");
         int m = sc.nextInt();
+        d_to_anyb(n, m);
+
+    }
+    public static void d_to_anyb(int n, int m){
         int rn = 0;
         int p =1;
         while (n > 0 ){
@@ -19,7 +23,6 @@ public class digit_to_anybase {
             p = p *10;
         }
         System.out.println(rn);
-
     }
 
 }
