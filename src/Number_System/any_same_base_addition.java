@@ -11,6 +11,11 @@ public class any_same_base_addition {
         int m = sc.nextInt();
         System.out.println("enter base: ");
         int b = sc.nextInt();
+
+        additionOfAnyBase(n, m, b);
+
+    }
+    public static void additionOfAnyBase(int n, int m, int b){
         int sum = 0;
         int p =1;
         while(Math.max(n,m) > 0){
